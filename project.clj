@@ -1,4 +1,4 @@
-(defproject metosin/tilakone.root "0.0.1-SNAPSHOT"
+(defproject helpshift/tilakone.root "0.0.1-SNAPSHOT"
   :description "Minimal finite state machine library"
   :dependencies []
   :source-paths ["dev"
