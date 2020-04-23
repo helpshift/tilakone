@@ -85,7 +85,7 @@
     (->> fsm
          (current-state)
          :tilakone.core/transitions
-         (filter (fn [{:tilakone.core/keys [on]}]
+         (filter (fn [{:keys [:tilakone.core/on]}]
                    (or (= on :tilakone.core/_)
                        (match? signal on))))
          (seq))))
